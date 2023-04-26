@@ -139,6 +139,7 @@
 
 			<WorkItem title="The Simplest Math Problem No One Can Solve">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/094y1Z2wpJg?controls=0"
@@ -151,6 +152,7 @@
 
 			<WorkItem title="The Unreasonable Effectiveness of JPEG">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/0me3guauqOU?controls=0"
@@ -163,6 +165,7 @@
 
 			<WorkItem title="How PNG works">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/EFUYNoFRHQI?controls=0"
@@ -174,6 +177,7 @@
 			</WorkItem>
 			<WorkItem title="The Discrete Fourier Transform">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/yYEMxqreA10?controls=0"
@@ -185,6 +189,7 @@
 			</WorkItem>
 			<WorkItem title="The Traveling Salesman Problem">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/GiDsjIBOVoA?controls=0"
@@ -196,6 +201,7 @@
 			</WorkItem>
 			<WorkItem title="but what are Blend Modes?">
 				<iframe
+					class="rounded-xl"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/D7Yg4H8e7uw?controls=0"
