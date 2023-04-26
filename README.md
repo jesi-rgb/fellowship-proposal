@@ -1,38 +1,9 @@
-# create-svelte
+# Processing Fellowship 2023
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Hi! We are Greg and Jesús, two developers based in Denver, CO and Jaén, Spain, eager to participate in 2023's Processing Fellowship.
 
-## Creating a project
+We present here our work as well as our proposal, consisting of a mathematical engine built on top of p5.js
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Proposal
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+We propose a mathematical engine for the web, similar to tools that are already out there like Manim, Desmos and alike. Building it natively for the web means unparalleled levels of accessibility. We believe that learning is making, and as such, we aim to provide a sensible and robust framework for students and teachers to build upon, making it easy for everyone to engage with mathematical edeavours in a computational context.
