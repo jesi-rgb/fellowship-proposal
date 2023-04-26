@@ -21,8 +21,6 @@
 		</p>
 	</div>
 
-	<br />
-	<br />
 	<Hero text="Proposal" />
 	<div>
 		<p class="text-justify">
