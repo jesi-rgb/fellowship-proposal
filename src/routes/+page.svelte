@@ -23,7 +23,6 @@
 
 	<br />
 	<br />
-	<br />
 	<Hero text="Proposal" />
 	<div>
 		<p class="text-justify">
@@ -39,6 +38,7 @@
 		</p>
 	</div>
 
+	<Hero text="About us" />
 	<div class="my-10 max-w-md flex-col space-y-32">
 		<Fellow
 			name="Greg"
