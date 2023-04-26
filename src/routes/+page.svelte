@@ -21,9 +21,12 @@
 		</p>
 	</div>
 
+	<br />
+	<br />
+	<br />
 	<Hero text="Proposal" />
 	<div>
-		<p>
+		<p class="text-justify">
 			We propose a mathematical engine for the web, similar to tools that are already out there like
 			Manim, Desmos and alike. Building it natively for the web means unparalleled levels of
 			accessibility. We believe that learning is making, and as such, we aim to provide a sensible
@@ -41,7 +44,7 @@
 			name="Greg"
 			bio="I’m a professional math tutor and a YouTuber. My long-term ambition is to share my education online with learners around the world, for free. Over the last decade, I’ve created YouTube videos, a mathematical visualization library, and curricula informed by my tutoring practice. I plan to turn all of this into a full-time career based on crowdfunding donations."
 		>
-			<div class="my-5 font-medium">
+			<div class="my-5 font-medium text-justify">
 				<p>
 					Greg has participated extensively in the math, math education, and software communities,
 					having presence in <Link
@@ -120,7 +123,7 @@
 			name="Jesús"
 			bio="I am a freelance mathematical animator, web developer and designer. I am mainly a technical content creator, using a myriad of tools to create beautiful and engaging explainers on the internet."
 		>
-			<p>
+			<p class="my-5 font-medium text-justify">
 				Jesús has mainly worked as an animator and web developer on a freelance basis. He's also
 				participated in <Link
 					text="GSoC'22 with the Processing Foundation"
@@ -135,6 +138,19 @@
 			</p>
 			<br />
 			<p>Here are some examples of the videos he's helped to create:</p>
+
+			<WorkItem title="The Simplest Math Problem No One Can Solve">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/094y1Z2wpJg?controls=0"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				/></WorkItem
+			>
+
 			<WorkItem title="The Unreasonable Effectiveness of JPEG">
 				<iframe
 					width="560"
