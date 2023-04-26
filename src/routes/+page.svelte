@@ -2,34 +2,37 @@
 	import Fellow from '../lib/Components/Fellow.svelte';
 	import Hero from '../lib/Components/Hero.svelte';
 	import Link from '../lib/Components/Link.svelte';
+	import Paragraph from '../lib/Components/Paragraph.svelte';
 	import WorkItem from '../lib/Components/WorkItem.svelte';
 </script>
 
-<div class="mx-auto max-w-sm xl:max-w-xl my-20">
+<div class="mx-auto max-w-sm xl:max-w-screen-lg my-20">
 	<Hero text="Processing Fellowship 2023" />
 	<div class="text-lg font-medium">
-		<p>
-			Hi! We are Greg and Jesús, two developers based in Denver, CO and Jaén, Spain, eager to
-			participate in <Link
-				link="https://processingfoundation.org/fellowships"
-				text="2023's Processing Fellowship"
-			/>.
-		</p>
-		<p>
-			We present here our work as well as our proposal, consisting of a mathematical engine built on
-			top of <Link text="p5.js" link="https://p5js.org/" />
-		</p>
+		<Paragraph>
+			<p>
+				Hi! We are Greg and Jesús, two developers based in Denver, CO and Jaén, Spain, eager to
+				participate in <Link
+					link="https://processingfoundation.org/fellowships"
+					text="2023's Processing Fellowship"
+				/>.
+			</p>
+			<p>
+				We present here our work as well as our proposal, consisting of a mathematical engine built
+				on top of <Link text="p5.js" link="https://p5js.org/" />
+			</p>
+		</Paragraph>
 	</div>
 
 	<Hero text="Proposal" />
 	<div>
-		<p class="text-justify">
+		<Paragraph>
 			We propose a mathematical engine for the web, similar to tools that are already out there like
 			Manim, Desmos and alike. Building it natively for the web means unparalleled levels of
 			accessibility. We believe that learning is making, and as such, we aim to provide a sensible
 			and robust framework for students and teachers to build upon, making it easy for everyone to
 			engage with mathematical edeavours in a computational context.
-		</p>
+		</Paragraph>
 		<br />
 		<p class="text-pink-600 font-extrabold">
 			Here we would add more info about the propsal I guess? Let me know what you think
@@ -37,12 +40,12 @@
 	</div>
 
 	<Hero text="About us" />
-	<div class="my-10 max-w-md flex-col space-y-32">
+	<div class="my-10 flex-col space-y-32">
 		<Fellow
 			name="Greg"
 			bio="I’m a professional math tutor and a YouTuber. My long-term ambition is to share my education online with learners around the world, for free. Over the last decade, I’ve created YouTube videos, a mathematical visualization library, and curricula informed by my tutoring practice. I plan to turn all of this into a full-time career based on crowdfunding donations."
 		>
-			<div class="my-5 font-medium text-justify">
+			<Paragraph>
 				<p>
 					Greg has participated extensively in the math, math education, and software communities,
 					having presence in <Link
@@ -63,10 +66,11 @@
 					Here are some examples of his work in the library <span class="font-bold">visual ODE</span
 					>:
 				</p>
-			</div>
-			<div class="flex-col space-y-10">
+			</Paragraph>
+			<div class="max-w-md flex-col xl:grid xl:grid-cols-2 xl:gap-6 xl:max-w-5xl">
 				<WorkItem title="Graphing Calculator">
 					<iframe
+						loading="lazy"
 						title="graphing calc"
 						height="500px"
 						class="w-full"
@@ -121,96 +125,98 @@
 			name="Jesús"
 			bio="I am a freelance mathematical animator, web developer and designer. I am mainly a technical content creator, using a myriad of tools to create beautiful and engaging explainers on the internet."
 		>
-			<p class="my-5 font-medium text-justify">
-				Jesús has mainly worked as an animator and web developer on a freelance basis. He's also
-				participated in <Link
-					text="GSoC'22 with the Processing Foundation"
-					link="https://medium.com/@ProcessingOrg/google-summer-of-code-2022-wrap-up-post-cb64caa840f0"
-				/>, helping to build <Link
-					text="native GIF encoding in the p5.js ecosystem"
-					link="https://www.jesirgb.com/blog/gif-encoding"
-				/>. One can find more of his work as a designer and web developer throughout <Link
-					text="his website"
-					link="https://jesirgb.com"
-				/>.
-			</p>
-			<br />
-			<p>Here are some examples of the videos he's helped to create:</p>
+			<Paragraph>
+				<p class="my-5 font-medium text-justify">
+					Jesús has mainly worked as an animator and web developer on a freelance basis. He's also
+					participated in <Link
+						text="GSoC'22 with the Processing Foundation"
+						link="https://medium.com/@ProcessingOrg/google-summer-of-code-2022-wrap-up-post-cb64caa840f0"
+					/>, helping to build <Link
+						text="native GIF encoding in the p5.js ecosystem"
+						link="https://www.jesirgb.com/blog/gif-encoding"
+					/>. One can find more of his work as a designer and web developer throughout <Link
+						text="his website"
+						link="https://jesirgb.com"
+					/>.
+				</p>
+				<br />
+				<p>Here are some examples of the videos he's helped to create:</p>
+			</Paragraph>
 
-			<WorkItem title="The Simplest Math Problem No One Can Solve">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/094y1Z2wpJg?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/></WorkItem
-			>
+			<div class="flex-col xl:grid xl:grid-cols-2 xl:gap-5">
+				<WorkItem title="The Simplest Math Problem No One Can Solve">
+					<iframe
+						class="rounded-xl w-full h-[250px] xl:h-[315px]"
+						src="https://www.youtube.com/embed/094y1Z2wpJg?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/></WorkItem
+				>
 
-			<WorkItem title="The Unreasonable Effectiveness of JPEG">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/0me3guauqOU?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/></WorkItem
-			>
+				<WorkItem title="The Unreasonable Effectiveness of JPEG">
+					<iframe
+						class="rounded-xl w-full h-[250px]"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/0me3guauqOU?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/></WorkItem
+				>
 
-			<WorkItem title="How PNG works">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/EFUYNoFRHQI?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/>
-			</WorkItem>
-			<WorkItem title="The Discrete Fourier Transform">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/yYEMxqreA10?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/>
-			</WorkItem>
-			<WorkItem title="The Traveling Salesman Problem">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/GiDsjIBOVoA?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/>
-			</WorkItem>
-			<WorkItem title="but what are Blend Modes?">
-				<iframe
-					class="rounded-xl"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/D7Yg4H8e7uw?controls=0"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/>
-			</WorkItem>
+				<WorkItem title="How PNG works">
+					<iframe
+						class="rounded-xl w-full h-[250px]"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/EFUYNoFRHQI?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/>
+				</WorkItem>
+				<WorkItem title="The Discrete Fourier Transform">
+					<iframe
+						class="rounded-xl w-full h-[250px]"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/yYEMxqreA10?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/>
+				</WorkItem>
+				<WorkItem title="The Traveling Salesman Problem">
+					<iframe
+						class="rounded-xl w-full h-[250px]"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/GiDsjIBOVoA?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/>
+				</WorkItem>
+				<WorkItem title="but what are Blend Modes?">
+					<iframe
+						class="rounded-xl w-full h-[250px]"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/D7Yg4H8e7uw?controls=0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/>
+				</WorkItem>
+			</div>
 		</Fellow>
 	</div>
 </div>

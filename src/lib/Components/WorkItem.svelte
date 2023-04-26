@@ -13,6 +13,7 @@
 	<WorkTitle {title} {link} />
 	{#if link}
 		<iframe
+			loading="lazy"
 			{title}
 			src={iframeLink}
 			class="w-[400px] h-[400px] border-2 rounded-xl border-pink-600"

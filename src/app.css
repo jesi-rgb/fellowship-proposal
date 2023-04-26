@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	/* background: #0c0c0c; */
+
+	--line-separation: 70px;
+	--line-width: 1px;
+	--calc-line-width: calc(var(--line-separation) + var(--line-width));
+	--color: #00000009;
+	background-image: repeating-linear-gradient(
+			0deg,
+			transparent 0 var(--line-separation),
+			var(--color) var(--line-separation) var(--calc-line-width)
+		),
+		repeating-linear-gradient(
+			90deg,
+			transparent 0 var(--line-separation),
+			var(--color) var(--line-separation) var(--calc-line-width)
+		);
+	scroll-behavior: smooth;
+}

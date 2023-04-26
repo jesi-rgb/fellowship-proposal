@@ -1,5 +1,6 @@
 <script>
 	import { Quotes } from 'phosphor-svelte';
+	import Paragraph from './Paragraph.svelte';
 	export let name;
 	export let bio;
 </script>
@@ -13,7 +14,9 @@
 				size="90"
 				class="absolute -right-10 -top-10 text-pink-600 opacity-20 text-3xl"
 			/>
-			<p class="text-justify">{bio}</p>
+			<Paragraph>
+				{bio}
+			</Paragraph>
 		</div>
 	</div>
 
