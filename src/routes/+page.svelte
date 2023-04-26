@@ -2,42 +2,58 @@
 	import Fellow from '../lib/Components/Fellow.svelte';
 	import Hero from '../lib/Components/Hero.svelte';
 	import Link from '../lib/Components/Link.svelte';
+	import Page from '../lib/Components/Page.svelte';
 	import Paragraph from '../lib/Components/Paragraph.svelte';
 	import WorkItem from '../lib/Components/WorkItem.svelte';
 </script>
 
 <div class="mx-auto max-w-sm xl:max-w-screen-lg my-20">
-	<Hero text="Processing Fellowship 2023" />
-	<div class="text-lg font-medium">
+	<Page>
+		<Hero text="Processing Fellowship 2023" />
 		<Paragraph>
 			<p>
-				Hi! We are Greg and Jesús, two developers based in Denver, CO and Jaén, Spain, eager to
-				participate in <Link
+				Hi! We are <span class="font-bold">Greg</span> and <span class="font-bold">Jesús</span>, two
+				developers based in Denver, CO and Jaén, Spain, eager to participate in <Link
 					link="https://processingfoundation.org/fellowships"
 					text="2023's Processing Fellowship"
 				/>.
 			</p>
+			<br />
 			<p>
 				We present here our work as well as our proposal, consisting of a mathematical engine built
 				on top of <Link text="p5.js" link="https://p5js.org/" />
 			</p>
 		</Paragraph>
-	</div>
+	</Page>
 
-	<Hero text="Proposal" />
-	<div>
-		<Paragraph>
-			We propose a mathematical engine for the web, similar to tools that are already out there like
-			Manim, Desmos and alike. Building it natively for the web means unparalleled levels of
-			accessibility. We believe that learning is making, and as such, we aim to provide a sensible
-			and robust framework for students and teachers to build upon, making it easy for everyone to
-			engage with mathematical edeavours in a computational context.
-		</Paragraph>
-		<br />
-		<p class="text-pink-600 font-extrabold">
-			Here we would add more info about the propsal I guess? Let me know what you think
-		</p>
-	</div>
+	<Page>
+		<Hero text="Proposal" />
+		<div>
+			<Paragraph>
+				<p>
+					We propose a <span class="font-bold">mathematical engine</span> for the web, similar to
+					tools that are already out there like <Link
+						text="Manim"
+						link="https://www.manim.community/"
+					/>, <Link text="Desmos" link="https://www.desmos.com/" /> and alike.
+				</p>
+
+				<br />
+
+				<p>
+					Building it natively for the web means unparalleled levels of <span
+						class="font-extrabold text-pink-600">accessibility</span
+					>. We believe that learning is making, and as such, we aim to provide a sensible and
+					robust framework for students and teachers to build upon, making it easy for everyone to
+					engage with mathematical edeavours in a computational context.
+				</p>
+			</Paragraph>
+			<br />
+			<p class="text-pink-600 font-extrabold">
+				Here we would add more info about the propsal I guess? Let me know what you think
+			</p>
+		</div>
+	</Page>
 
 	<Hero text="About us" />
 	<div class="my-10 flex-col space-y-32">
@@ -71,9 +87,8 @@
 				<WorkItem title="Graphing Calculator">
 					<iframe
 						loading="lazy"
+						height="400"
 						title="graphing calc"
-						height="500px"
-						class="w-full"
 						src="https://editor.p5js.org/highermathnotes/full/Up0ONQ9dE"
 					/>
 				</WorkItem>
@@ -146,7 +161,7 @@
 			<div class="flex-col xl:grid xl:grid-cols-2 xl:gap-5">
 				<WorkItem title="The Simplest Math Problem No One Can Solve">
 					<iframe
-						class="rounded-xl w-full h-[250px] xl:h-[315px]"
+						class="rounded-xl w-full h-[250px]"
 						src="https://www.youtube.com/embed/094y1Z2wpJg?controls=0"
 						title="YouTube video player"
 						frameborder="0"
