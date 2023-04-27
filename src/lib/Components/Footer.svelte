@@ -5,12 +5,12 @@
 </script>
 
 <div class="mt-32 border-t-2 border-pink-600">
-	<div class="grid grid-cols-2">
+	<div class="grid grid-cols-1 xl:grid-cols-2">
 		<div class="relative font-light text-2xl mt-14">
 			<div class="text-pink-600 absolute -left-10 -z-10 opacity-5 -rotate-12 -top-10">
 				<Heart weight="duotone" size="300" />
 			</div>
-			Built with<span class="inline-block align-middle mb-1 text-pink-600"
+			Built with {' '}<span class="inline-block align-middle mb-1 text-pink-600"
 				><Heart weight="fill" /></span
 			>
 			by <Link text="Jesús Rascón" link="https://jesirgb-com" /> and <Link
@@ -23,7 +23,9 @@
 			<div class="text-pink-600 absolute -right-10 -z-10 opacity-5 rotate-12 -top-10">
 				<Globe weight="duotone" size="300" />
 			</div>
-			Find us over the internet<span class="inline-block align-middle mb-1"><Globe /></span>
+			Find us over the internet<span class="inline-block align-middle mb-1"
+				><Globe weight="fill" /></span
+			>
 			<div class="grid grid-cols-2 mt-5">
 				<div>
 					<div class="font-bold text-pink-600 mb-5">Greg</div>
