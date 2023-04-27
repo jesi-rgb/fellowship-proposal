@@ -23,6 +23,7 @@
 			We present here our work as well as our proposal, consisting of a mathematical engine built on
 			top of <Link text="p5.js" link="https://p5js.org/" />
 		</p>
+		<br />
 	</Paragraph>
 </Page>
 
@@ -46,6 +47,15 @@
 				>. We believe that learning is making, and as such, we aim to provide a sensible and robust
 				framework for students and teachers to build upon, making it easy for everyone to engage
 				with mathematical edeavours in a computational context.
+			</p>
+
+			<br />
+			<p>
+				[MatheMagical.js] is a proposed p5.js library for making web-based mathematical figures,
+				animations, and interactives in 2D and 3D. Designed for learners, educators, and creators,
+				it will be easy enough for beginners and flexible enough for experts. If you’re interested
+				in this project, please let us know by filling out our [community form](URL to Google form)!
+				We’ll keep you updated.
 			</p>
 		</Paragraph>
 		<br />

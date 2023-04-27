@@ -5,25 +5,27 @@
 @tailwind utilities;
 
 html {
-	/* background: #0c0c0c; */
+	/* https://stackoverflow.com/a/25709375/12024715 */
+	--color: #db277709;
+	--cross-color: #db277730;
+	background: linear-gradient(-90deg, var(--color) 1px, transparent 1px),
+		linear-gradient(var(--color) 1px, transparent 1px),
+		linear-gradient(-90deg, var(--color) 1px, transparent 1px),
+		linear-gradient(var(--color) 1px, transparent 1px),
+		linear-gradient(transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+		linear-gradient(-90deg, var(--cross-color) 1px, transparent 1px),
+		linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+		linear-gradient(var(--cross-color) 1px, transparent 1px), #f2f2f2;
 
-	--line-separation: 70px;
-	--line-width: 1px;
-	--calc-line-width: calc(var(--line-separation) + var(--line-width));
-	--color: #00000009;
-	background-image: repeating-linear-gradient(
-			0deg,
-			transparent 0 var(--line-separation),
-			var(--color) var(--line-separation) var(--calc-line-width)
-		),
-		repeating-linear-gradient(
-			90deg,
-			transparent 0 var(--line-separation),
-			var(--color) var(--line-separation) var(--calc-line-width)
-		),
-		radial-gradient(circle at top, #db277709, transparent);
+	--size-big: 80px;
+	--size-small: 8px;
 
-	background-size: 100% 100%, 100% 100%, cover;
+	background-size: var(--size-small) var(--size-small), var(--size-small) var(--size-small),
+		var(--size-big) var(--size-big), var(--size-big) var(--size-big),
+		var(--size-big) var(--size-big), var(--size-big) var(--size-big),
+		var(--size-big) var(--size-big), var(--size-big) var(--size-big),
+		var(--size-big) var(--size-big);
+
 	background-attachment: fixed;
 
 	width: 100%;
