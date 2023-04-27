@@ -5,6 +5,9 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Manrope']
+			},
+			animation: {
+				'spin-slow': 'spin 3s linear infinite'
 			}
 		}
 	},
