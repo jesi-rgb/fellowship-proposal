@@ -7,7 +7,9 @@
 <div class="mt-32 border-t-2 border-pink-600">
 	<div class="grid grid-cols-1 xl:grid-cols-2">
 		<div class="relative font-light text-2xl mt-14">
-			<div class="text-pink-600 absolute -left-10 -z-10 opacity-5 -rotate-12 -top-10">
+			<div
+				class="text-pink-600 scale-90 xl:scale-100 absolute -left-10 -z-10 opacity-5 -rotate-12 -top-10"
+			>
 				<Heart weight="duotone" size="300" />
 			</div>
 			Built with {' '}<span class="inline-block align-middle mb-1 text-pink-600"
@@ -20,7 +22,9 @@
 		</div>
 
 		<div class="relative font-light text-2xl mt-14">
-			<div class="text-pink-600 absolute -right-10 -z-10 opacity-5 rotate-12 -top-10">
+			<div
+				class="text-pink-600 scale-[70%] -p-3 xl:scale-100 absolute -right-10 -z-10 opacity-5 rotate-12 -top-10"
+			>
 				<Globe weight="duotone" size="300" />
 			</div>
 			Find us over the internet<span class="inline-block align-middle mb-1"
