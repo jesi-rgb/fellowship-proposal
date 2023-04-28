@@ -5,6 +5,10 @@
 	import Paragraph from '../lib/Components/Paragraph.svelte';
 </script>
 
+<svelte:head>
+	<title>Processing Fellowship 2023</title>
+</svelte:head>
+
 <Page id="Intro" navigateTo="Proposal" navigationArrow={true}>
 	<Hero text="Processing Fellowship 2023" />
 	<Paragraph>

@@ -6,6 +6,10 @@
 	import WorkItem from '../../lib/Components/WorkItem.svelte';
 </script>
 
+<svelte:head>
+	<title>About us — Processing Fellowship 2023</title>
+</svelte:head>
+
 <Hero text="About us" />
 <div class="my-10 flex-col space-y-32">
 	<Fellow
@@ -34,9 +38,10 @@
 			</p>
 		</Paragraph>
 		<iframe
-			class="rounded-xl border-2 border-pink-600 w-[400px] mx-auto"
+			class="rounded-xl border-2 border-pink-600 mx-auto"
 			loading="lazy"
-			height="400"
+			width="405"
+			height="500"
 			title="graphing calc"
 			src="https://editor.p5js.org/highermathnotes/full/Up0ONQ9dE"
 		/>

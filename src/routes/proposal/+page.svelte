@@ -5,6 +5,10 @@
 	import Heading from '../../lib/Components/Heading.svelte';
 </script>
 
+<svelte:head>
+	<title>Proposal — Processing Fellowship 2023</title>
+</svelte:head>
+
 <div class="mx-auto max-w-sm md:max-w-md xl:max-w-xl">
 	<Hero text="Proposal" />
 	<Paragraph>
