@@ -22,13 +22,13 @@
 				/>
 			</div>
 			<div
-				class="font-bold text-pink-600 hover:text-pink-400 transition-colors tracking-tighter text-3xl"
+				class="font-bold mt-12 text-pink-600 hover:text-pink-400 transition-colors tracking-tighter text-3xl"
 			>
 				<a href="/">Processing Fellowship 2023</a>
 			</div>
 		</div>
 
-		<div class="relative font-light text-2xl mt-14">
+		<div class="relative font-light text-2xl mt-14 text-left xl:text-right">
 			<div
 				class="text-pink-600 scale-[70%] -p-3 xl:scale-100 absolute -right-10 -z-10 opacity-5 rotate-12 -top-10"
 			>
