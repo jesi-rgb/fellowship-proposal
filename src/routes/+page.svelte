@@ -1,11 +1,8 @@
 <script>
-	import Fellow from '../lib/Components/Fellow.svelte';
-	import Footer from '../lib/Components/Footer.svelte';
 	import Hero from '../lib/Components/Hero.svelte';
 	import Link from '../lib/Components/Link.svelte';
 	import Page from '../lib/Components/Page.svelte';
 	import Paragraph from '../lib/Components/Paragraph.svelte';
-	import WorkItem from '../lib/Components/WorkItem.svelte';
 </script>
 
 <Page id="Intro" navigateTo="Proposal" navigationArrow={true}>
@@ -50,13 +47,8 @@
 			</p>
 
 			<br />
-			<p>
-				[MatheMagical.js] is a proposed p5.js library for making web-based mathematical figures,
-				animations, and interactives in 2D and 3D. Designed for learners, educators, and creators,
-				it will be easy enough for beginners and flexible enough for experts. If you’re interested
-				in this project, please let us know by filling out our [community form](URL to Google form)!
-				We’ll keep you updated.
-			</p>
+
+			Please, visit the <Link text="proposal page" link="/proposal" /> to know more!
 		</Paragraph>
 		<br />
 		<p class="text-pink-600 font-extrabold">
@@ -65,9 +57,7 @@
 	</div>
 </Page>
 
-<Page>
-	<Hero text="About us" />
-	<Paragraph>
-		To know more about our work, visit the <Link text="about" link="/about" /> page.
-	</Paragraph>
-</Page>
+<Hero text="About us" />
+<Paragraph>
+	To know more about our work, please visit the <Link text="about" link="/about" /> page.
+</Paragraph>

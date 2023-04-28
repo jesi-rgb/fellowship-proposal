@@ -33,20 +33,16 @@
 				Here are some examples of his work in the library <span class="font-bold">visual ODE</span>:
 			</p>
 		</Paragraph>
-		<div class="max-w-md flex-col xl:grid xl:grid-cols-2 xl:gap-6 xl:max-w-5xl">
-			<WorkItem title="Graphing Calculator">
-				<iframe
-					loading="lazy"
-					height="400"
-					title="graphing calc"
-					src="https://editor.p5js.org/highermathnotes/full/Up0ONQ9dE"
-				/>
-			</WorkItem>
-
-			<WorkItem
-				title="Fish in water"
-				link="https://www.khanacademy.org/computer-programming/spin-off-of-project-animal-attack/5961848678645760"
-			/>
+		<iframe
+			class="rounded-xl border-2 border-pink-600 w-[400px] mx-auto"
+			loading="lazy"
+			height="400"
+			title="graphing calc"
+			src="https://editor.p5js.org/highermathnotes/full/Up0ONQ9dE"
+		/>
+		<div
+			class="max-w-md mx-auto flex-col xl:grid xl:grid-cols-2 xl:gap-x-52 xl:justify-around xl:max-w-5xl"
+		>
 			<WorkItem
 				title="Normal Distribution"
 				link="https://www.khanacademy.org/computer-programming/interactive-normal-distribution/6221313412710400"
@@ -67,10 +63,10 @@
 				link="https://www.khanacademy.org/computer-programming/degenerate-hyperbola-interactive/5729571474915328"
 			/>
 
-			<WorkItem
-				title="Logo animation featuring cycloid"
-				link="https://www.khanacademy.org/computer-programming/spin-off-of-project-ad-design/6473163029282816"
-			/>
+			<!-- <WorkItem -->
+			<!-- 	title="Logo animation featuring cycloid" -->
+			<!-- 	link="https://www.khanacademy.org/computer-programming/spin-off-of-project-ad-design/6473163029282816" -->
+			<!-- /> -->
 
 			<WorkItem
 				title="Numerical Differentiation"
@@ -83,6 +79,11 @@
 			<WorkItem
 				title="Implicit curve animator"
 				link="https://www.khanacademy.org/computer-programming/implicit-curve-animator-with-tangents/4886044829777920"
+			/>
+
+			<WorkItem
+				title="Fish in water"
+				link="https://www.khanacademy.org/computer-programming/spin-off-of-project-animal-attack/5961848678645760"
 			/>
 		</div>
 	</Fellow>

@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Manrope']
+				sans: ['Manrope'],
+				mono: ['JetBrains Mono']
 			},
 			animation: {
 				'spin-slow': 'spin 3s linear infinite'
