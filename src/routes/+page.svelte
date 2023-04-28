@@ -41,9 +41,9 @@
 			<p>
 				Building it natively for the web means unparalleled levels of <span
 					class="font-extrabold text-pink-600">accessibility</span
-				>. We believe that learning is making, and as such, we aim to provide a sensible and robust
-				framework for students and teachers to build upon, making it easy for everyone to engage
-				with mathematical edeavours in a computational context.
+				>. We believe that <b>learning is making</b>, and as such, we aim to provide a sensible and
+				robust framework for students and teachers to build upon,
+				<b>making it easy for everyone</b> to engage with mathematical edeavours in a computational context.
 			</p>
 
 			<br />
@@ -51,9 +51,6 @@
 			Please, visit the <Link text="proposal page" link="/proposal" /> to know more!
 		</Paragraph>
 		<br />
-		<p class="text-pink-600 font-extrabold">
-			Here we would add more info about the propsal I guess? Let me know what you think
-		</p>
 	</div>
 </Page>
 

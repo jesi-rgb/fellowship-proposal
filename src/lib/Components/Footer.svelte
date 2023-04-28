@@ -6,19 +6,26 @@
 
 <div class="mt-32 border-t-2 border-pink-600">
 	<div class="grid grid-cols-1 xl:grid-cols-2">
-		<div class="relative font-light text-2xl mt-14">
-			<div
-				class="text-pink-600 scale-90 xl:scale-100 absolute -left-10 -z-10 opacity-5 -rotate-12 -top-10"
-			>
-				<Heart weight="duotone" size="300" />
+		<div class="relative flex flex-col justify-between font-light text-2xl mt-14">
+			<div>
+				<div
+					class="text-pink-600 scale-90 xl:scale-100 absolute -left-10 -z-10 opacity-5 -rotate-12 -top-10"
+				>
+					<Heart weight="duotone" size="300" />
+				</div>
+				Built with {' '}<span class="inline-block align-middle mb-1 text-pink-600"
+					><Heart weight="fill" /></span
+				>
+				by <Link text="Jesús Rascón" link="https://jesirgb-com" /> and <Link
+					text="Greg Stanton"
+					link="http://www.highermathhelp.com/"
+				/>
 			</div>
-			Built with {' '}<span class="inline-block align-middle mb-1 text-pink-600"
-				><Heart weight="fill" /></span
+			<div
+				class="font-bold text-pink-600 hover:text-pink-400 transition-colors tracking-tighter text-3xl"
 			>
-			by <Link text="Jesús Rascón" link="https://jesirgb-com" /> and <Link
-				text="Greg Stanton"
-				link="http://www.highermathhelp.com/"
-			/>
+				<a href="/">Processing Fellowship 2023</a>
+			</div>
 		</div>
 
 		<div class="relative font-light text-2xl mt-14">
