@@ -1,12 +1,15 @@
 <script>
 	import { Quotes } from 'phosphor-svelte';
 	import Paragraph from './Paragraph.svelte';
+	import Heading from './Heading.svelte';
 	export let name;
 	export let bio;
 </script>
 
 <div>
-	<h1 class="font-bold text-3xl text-pink-600 mb-5">{name}</h1>
+	<div class="text-pink-600">
+		<Heading>{name}</Heading>
+	</div>
 	<div class="flex flex-row mb-10">
 		<div class="relative">
 			<Quotes
@@ -20,6 +23,6 @@
 		</div>
 	</div>
 
-	<h2 class="font-bold text-xl">Work</h2>
+	<Heading>Work</Heading>
 	<slot />
 </div>

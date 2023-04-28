@@ -54,11 +54,6 @@
 			/>
 
 			<WorkItem
-				title="Spiral Animator"
-				link="https://www.khanacademy.org/computer-programming/spiral-animator/5291927036985344"
-			/>
-
-			<WorkItem
 				title="Visual ODE Demo"
 				link="https://www.khanacademy.org/computer-programming/visualode-demo/6127327220629504"
 			/>
@@ -84,11 +79,6 @@
 			<WorkItem
 				title="Implicit curve animator"
 				link="https://www.khanacademy.org/computer-programming/implicit-curve-animator-with-tangents/4886044829777920"
-			/>
-
-			<WorkItem
-				title="Fish in water"
-				link="https://www.khanacademy.org/computer-programming/spin-off-of-project-animal-attack/5961848678645760"
 			/>
 		</div>
 	</Fellow>
