@@ -1,4 +1,5 @@
 <script>
+	import { Hourglass, Intersect, MicrophoneStage, NotePencil } from 'phosphor-svelte';
 	import Hero from '../lib/Components/Hero.svelte';
 	import Link from '../lib/Components/Link.svelte';
 	import Page from '../lib/Components/Page.svelte';
@@ -29,36 +30,90 @@
 </Page>
 
 <Page id="Proposal">
-	<Hero text="Proposal" />
+	<Hero text="Our Proposal" />
 	<div>
 		<Paragraph>
 			<p>
-				We propose a <span class="font-bold">mathematical engine</span> for the web, similar to
-				tools that are already out there like <Link
-					text="Manim"
-					link="https://www.manim.community/"
-				/>, <Link text="Desmos" link="https://www.desmos.com/" /> and alike.
+				Thanks to <Link text="Manim" link="https://www.manim.community/" /> and its stunning visualizations,
+				animation has become an important medium of communication in math education.
 			</p>
 
 			<br />
 
 			<p>
-				Building it natively for the web means unparalleled levels of <span
-					class="font-extrabold text-pink-600">accessibility</span
-				>. We believe that <b>learning is making</b>, and as such, we aim to provide a sensible and
-				robust framework for students and teachers to build upon,
-				<b>making it easy for everyone</b> to engage with mathematical edeavours in a computational context.
+				Wouldn't it be great if learners and educators could easily program mathematical animations
+				directly in the browser, share them, and interact with them?
 			</p>
 
 			<br />
 
-			Please, visit the <Link text="proposal page" link="/proposal" /> to know more!
+			<p>
+				To make this possible, we propose Mathemagical.js: a web-based tool for making mathematical
+				figures, animations, and interactives in 2D and 3D. By leveraging the amazing work of the
+				p5.js community, we can make it easy enough for beginners and flexible enough for experts.
+			</p>
+
+			<br />
 		</Paragraph>
 		<br />
 	</div>
 </Page>
 
-<Hero text="About us" />
-<Paragraph>
-	To know more about our work, please visit the <Link text="about" link="/about" /> page.
-</Paragraph>
+<Page>
+	<Hero text="About us" />
+
+	<div class="font-bold text-pink-600 text-3xl">Greg</div>
+	<Paragraph>
+		I’m a professional math tutor, a YouTuber, and a programmer. I built an early version of
+		Mathemagical.js called visualODE. As a Wikimedia Foundation grantee, I created a wiki and a
+		community of math educators for Eventmath (in collaboration with Dr. Brendan Sullivan). I also
+		created the website for my Higher Math Help service, where I have tutored for fifteen years. My
+		long-term ambition is to share my education online with learners around the world, for free.
+	</Paragraph>
+	<div class="font-bold text-pink-600 text-3xl">Jesús</div>
+	<Paragraph>
+		I’m a professional content creator, specializing in computer science, graphic design and
+		procedural animation. My Manim animations have appeared in some of the most popular math videos
+		on all of YouTube; they’ve been viewed over 60 million times! I also engineered native GIF
+		exports for p5.js, so I know a thing or two about sharing animations on the web. Oh, and I build
+		websites, so I’ll make sure Mathemagical.js has a good home on the web, with beginner friendly
+		demos and docs.
+	</Paragraph>
+</Page>
+
+<Page>
+	<Hero text="Learn more" />
+
+	<div class="flex flex-col xl:flex-row items-start justify-evenly gap-10 mt-20">
+		<div class="xl:w-1/3 relative p-3 shadow-pink-600/10 shadow-xl rounded-xl">
+			<div class="font-bold text-center text-3xl text-pink-600">Proposal Page</div>
+			<div class="absolute opacity-5 -top-10 right-10 rotate-12 text-pink-600">
+				<NotePencil size={200} />
+			</div>
+			<Paragraph>
+				You can check out <Link text="our proposal page" link="/proposal" /> for more details and an
+				FAQ that we’ll update based on questions from the community.
+			</Paragraph>
+		</div>
+		<div class="xl:w-1/3 relative p-3 shadow-pink-600/10 shadow-xl rounded-xl">
+			<div class="font-bold text-center text-3xl text-pink-600">Joint portfolio</div>
+			<div class="absolute opacity-5 -top-10 right-10 -rotate-45 text-pink-600">
+				<Intersect size={200} />
+			</div>
+			<Paragraph>
+				You can take a gander at <Link text="our joint portfolio" link="/about" />, to see some of
+				the cool stuff we’ve made.
+			</Paragraph>
+		</div>
+		<div class="xl:w-1/3 relative p-3 shadow-pink-600/10 shadow-xl rounded-xl">
+			<div class="font-bold text-center text-3xl text-pink-600">Community Form</div>
+			<div class="absolute opacity-5 -top-10 right-10 -rotate-90 text-pink-600">
+				<MicrophoneStage size={200} />
+			</div>
+			<Paragraph>
+				If you’re interested in this project, please let us know by filling out our [community
+				form](URL to Google form)! We’ll keep you updated.
+			</Paragraph>
+		</div>
+	</div>
+</Page>

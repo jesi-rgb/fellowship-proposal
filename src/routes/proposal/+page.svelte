@@ -6,11 +6,11 @@
 </script>
 
 <svelte:head>
-	<title>Proposal — Processing Fellowship 2023</title>
+	<title>Our Proposal — Processing Fellowship 2023</title>
 </svelte:head>
 
 <div class="mx-auto max-w-sm md:max-w-md xl:max-w-xl">
-	<Hero text="Proposal" />
+	<Hero text="Our Proposal" />
 	<Paragraph>
 		<div>
 			<span class="font-mono font-bold"> MatheMagical.js</span> is a proposed p5.js library for
