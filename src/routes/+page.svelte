@@ -39,18 +39,18 @@
 </Page>
 
 <Page id="Proposal">
-	<svg height="1000" width="100%" class="absolute -ml-36 -z-10">
-		{#if mounted}
-			<path
-				in:draw={{ duration: 1500, easing: cubicInOut }}
-				d="M0,250 C390,82 322,451 1462,250"
-				fill="transparent"
-				stroke="rgba(219, 40, 119, 1)"
-				stroke-width="2"
-				stroke-opacity=".3"
-			/>
-		{/if}
-	</svg>
+	<!-- <svg height="1000" width="100%" class="absolute -ml-36 -z-10"> -->
+	<!-- 	{#if mounted} -->
+	<!-- 		<path -->
+	<!-- 			in:draw={{ duration: 1500, easing: cubicInOut }} -->
+	<!-- 			d="M0,250 C390,82 322,451 1462,250" -->
+	<!-- 			fill="transparent" -->
+	<!-- 			stroke="rgba(219, 40, 119, 1)" -->
+	<!-- 			stroke-width="2" -->
+	<!-- 			stroke-opacity=".3" -->
+	<!-- 		/> -->
+	<!-- 	{/if} -->
+	<!-- </svg> -->
 	<Hero text="Our Proposal" />
 	<div>
 		<Paragraph>
