@@ -33,7 +33,7 @@
 				<div
 					class="font-bold mt-12 text-pink-600 hover:text-pink-400 transition-colors tracking-tighter text-3xl"
 				>
-					<a href="/">Processing Fellowship 2023</a>
+					<a href="/">Mathemagical.js fellowship proposal</a>
 				</div>
 			</div>
 

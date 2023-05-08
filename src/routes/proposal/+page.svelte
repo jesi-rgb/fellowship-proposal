@@ -30,45 +30,52 @@
 
 	<Heading>The problem</Heading>
 	<Paragraph>
-		It is known that basic mathematical visualizations often require an intimidating amount of
-		programming, even with a beginner-friendly library like p5.js. In Python, <Link
-			text="Manim"
-			link="https://manim.community"
-		/> has recently become a popular solution, and for good reason. Thanks to its stunning visualizations
-		and great flexibility, it has been called the gold standard of mathematical animation.
+		We want to solve an accessibility problem: math learners and educators are the most likely to
+		benefit from software libraries for mathematical visualization, but no existing library is
+		accessible to them.
 
-		<br />
-		<br />
+		<br /><br />
+		Basic mathematical visualizations often require an intimidating amount of programming, even with
+		a beginner-friendly library like p5.js.
 
-		Unfortunately, Manim users must have access to a machine on which they can install software.
-		They must be ready to implement a difficult installation process. One of us, who happens to be a
-		professional animator with a degree in computer science, actually broke his computer three times
-		while trying to install Manim! They must know how to use the command line and be familiar with
-		object-oriented programming.
+		<br /><br />
+		In Python, Manim has recently become a popular solution, and for good reason. Owing to its gorgeous
+		visualizations, it has been called the gold standard of mathematical animation.
 
-		<br />
-		<br />
+		<br /><br />
+		Unfortunately, Manim users must have access to a machine on which they can install software. They
+		must be ready to implement a difficult installation process. They must know how to use the command
+		line and be familiar with object-oriented programming. All this is required to draw a circle.
+	</Paragraph>
 
-		All this is required to draw a circle. The getting-started guide for p5.js also teaches users
-		how to how to draw a circle, and the difference in accessibility is dramatic! So, our solution
-		is to extend p5.js with an add-on library for mathematical visualizations. It should be as
-		capable as Manim, but beginner friendly, and built for the web.
+	<Heading>The solution</Heading>
+	<Paragraph>
+		Like the Quickstart tutorial for Manim, the Get Started guide for p5.js also teaches users how
+		to draw a circle. The difference in accessibility is night and day!
 
-		<br />
-		<br />
-		We have <span class="font-bold">three top design priorities</span>:
+		<br /><br />
+		So, our solution is to extend p5.js with an add-on library for mathematical visualizations. It should
+		be as capable as Manim, but beginner friendly, and built for the web.
 
-		<ol class="list-disc flex-col space-y-3 py-3">
+		<br /><br />
+		We have <b>three</b> design priorities:
+		<br /><br />
+
+		<ul class="list-disc">
 			<li>
-				<b>Accessibility</b>. It must be easy for total beginners to use in the browser, with no
+				<b>Accessibility</b>: It must be easy for total beginners to use in the browser, with no
 				setup.
 			</li>
-			<li><b>Interactivity</b>. It must be easy to make visualizations interactive!</li>
-			<li>
-				<b>Expressiveness</b>. It must be easy to create custom aesthetics.
-			</li>
-		</ol>
-		We’ve already proposed the idea on Twitter, and it went viral!
+
+			<li><b>Interactivity</b>: It must be easy to make visualizations interactive!</li>
+			<li><b>Expressiveness</b>: It must be easy to create custom aesthetics.</li>
+		</ul>
+
+		<br />
+		Based on the overwhelming <Link
+			text="response on Twitter"
+			link="https://twitter.com/HigherMathNotes/status/1638652022022115328"
+		/>, we know we’re on the right track!
 	</Paragraph>
 
 	<Heading>FAQ</Heading>

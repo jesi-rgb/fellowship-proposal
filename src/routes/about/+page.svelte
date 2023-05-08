@@ -1,42 +1,20 @@
 <script>
-	import Fellow from '../../lib/Components/Fellow.svelte';
+	import Heading from '../../lib/Components/Heading.svelte';
 	import Hero from '../../lib/Components/Hero.svelte';
-	import Link from '../../lib/Components/Link.svelte';
-	import Paragraph from '../../lib/Components/Paragraph.svelte';
 	import WorkItem from '../../lib/Components/WorkItem.svelte';
 </script>
 
 <svelte:head>
-	<title>About us — Processing Fellowship 2023</title>
+	<title>Joint Portfolio — Processing Fellowship 2023</title>
 </svelte:head>
 
-<Hero text="About us" />
-<div class="my-10 flex-col space-y-32">
-	<Fellow
-		name="Greg"
-		bio="I’m a professional math tutor and a YouTuber. My long-term ambition is to share my education online with learners around the world, for free. Over the last decade, I’ve created YouTube videos, a mathematical visualization library, and curricula informed by my tutoring practice. I plan to turn all of this into a full-time career based on crowdfunding donations."
-	>
-		<Paragraph>
-			<p>
-				Greg has participated extensively in the math, math education, and software communities,
-				having presence in <Link text="Reddit" link="https://www.reddit.com/user/HigherMathHelp" />, <Link
-					text="Twitter"
-					link="https://twitter.com/HigherMathNotes"
-				/> and <Link
-					text="Github"
-					link="https://github.com/issues?q=is%3Aissue+commenter%3AGregStanton"
-				/>, as well as having his own <Link
-					text="Wikimedia page"
-					link="https://meta.wikimedia.org/wiki/User:Greg_at_Higher_Math_Help"
-				/>. Some of his work also includes a myriad of math examples built on top of p5.js, as well
-				as <Link text="a youtube channel" link="https://www.youtube.com/c/HigherMathNotes" />
-				explaining math in great detail.
-			</p>
-			<br />
-			<p>
-				Here are some examples of his work in the library <span class="font-bold">visualODE</span>:
-			</p>
-		</Paragraph>
+<Hero text="Joint Portfolio" />
+<div class="text-2xl tracking-tight font-medium">
+	Here, you can check out some of the work we've done over the years. We hope you like it!
+</div>
+<div class="my-10 flex-col space-y-24">
+	<div>
+		<Heading>Selected Work: Greg</Heading>
 		<iframe
 			class="rounded-xl border-2 border-pink-600 mx-auto"
 			loading="lazy"
@@ -76,28 +54,16 @@
 				link="https://www.khanacademy.org/computer-programming/implicit-curve-animator-with-tangents/4886044829777920"
 			/>
 		</div>
-	</Fellow>
-	<Fellow
-		name="Jesús"
-		bio="I am a freelance mathematical animator, web developer and designer. I am mainly a technical content creator, using a myriad of tools to create beautiful and engaging explainers on the internet."
-	>
-		<Paragraph>
-			<p class="my-5 text-justify">
-				Jesús has mainly worked as an animator and web developer on a freelance basis. He's also
-				participated in <Link
-					text="GSoC'22 with the Processing Foundation"
-					link="https://medium.com/@ProcessingOrg/google-summer-of-code-2022-wrap-up-post-cb64caa840f0"
-				/>, helping to build <Link
-					text="native GIF encoding in the p5.js ecosystem"
-					link="https://www.jesirgb.com/blog/gif-encoding"
-				/>. One can find more of his work as a designer and web developer throughout <Link
-					text="his website"
-					link="https://jesirgb.com"
-				/>.
-			</p>
-			<br />
-			<p>Here are some examples of the videos he's helped to create:</p>
-		</Paragraph>
+	</div>
+
+	<!---->
+	<!---->
+	<!-- Jesús -->
+	<!---->
+	<!---->
+
+	<div>
+		<Heading>Selected Work: Jesús</Heading>
 
 		<div class="flex-col xl:grid xl:grid-cols-2 xl:gap-5">
 			<WorkItem title="The Simplest Math Problem No One Can Solve">
@@ -173,5 +139,5 @@
 				/>
 			</WorkItem>
 		</div>
-	</Fellow>
+	</div>
 </div>

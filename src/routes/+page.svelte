@@ -12,7 +12,7 @@
 </svelte:head>
 
 <Page>
-	<Hero text="Processing Fellowship 2023" />
+	<Hero text="Mathemagical.js fellowship proposal" />
 	<Paragraph>
 		<p>
 			Hi! We are <span class="font-bold">Greg</span> and <span class="font-bold">Jesús</span>, two
@@ -23,8 +23,8 @@
 		</p>
 		<br />
 		<p>
-			We present here our work as well as our proposal, consisting of a mathematical engine built on
-			top of <Link text="p5.js" link="https://p5js.org/" />
+			We aim to build a mathematical visualization library unlike any other! Here, you can learn
+			about our proposal and our work.
 		</p>
 		<br />
 	</Paragraph>
@@ -83,9 +83,9 @@
 
 		<br />
 		<br />
-		I also created the website for my <b>Higher Math Help</b> service, where I have tutored for
-		fifteen years. My long-term ambition is to share my education online with learners around the
-		world, <b>for free</b> .
+		As a Wikimedia Foundation grantee, I created a <b>wiki</b> and a <b>community</b> of math educators
+		for Eventmath (in collaboration with Dr. Brendan Sullivan). My long-term ambition is to share my
+		education online with learners around the world, for free.
 	</Paragraph>
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Jesús</div>
 	<Paragraph>
@@ -108,8 +108,8 @@
 		<Card title="Proposal Page" link="/proposal">
 			<NotePencil slot="icon" size={200} />
 			<p slot="content">
-				You can check out for more details and an FAQ that we’ll update based on questions from the
-				community.
+				You can check this out for more details and an FAQ that we’ll update based on questions from
+				the community.
 			</p>
 		</Card>
 
