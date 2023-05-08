@@ -83,22 +83,26 @@
 		<ul class="list-decimal">
 			<li>
 				<p class="font-medium text-2xl text-pink-600 my-9">
-					What will Mathemagical.js do that Geogebra or Desmos doesn’t?
+					What will Mathemagical.js do that <b>Geogebra</b> or <b>Desmos</b> can't?
 				</p>
 				<ul class="list-disc list-inside space-y-4">
 					<li>
-						The framework we’re building on, p5.js, is designed not only for learners and educators,
-						but also visual artists. As an extension of this, Mathemagical.js will support a high
-						degree of aesthetic customization out of the box.
+						We’ll build Mathemagical.js on a technology called p5.js, which is designed not only for
+						learners and educators, but also visual artists. By extension, Mathemagical.js will
+						support a high degree of aesthetic customization out of the box.
 
 						<br />
 						<i class="font-light"
-							>(Creators using tools like Geogebra can run into limitations in this regard. See
-							these blog articles, for example.)</i
-						>
+							>(Creators using tools like Geogebra can
+							<Link
+								text="run into limitations"
+								link="https://www.mathemaniac.co.uk/blog/how-i-use-geogebra-to-make-animations-in-videos-part-i"
+							/></i
+						>)
 					</li>
 					<li>
-						We aim to make Mathemagical.js more performant than Geogebra is on the web (e.g. compare
+						We also aim to make Mathemagical.js more performant than Geogebra is on the web (e.g.
+						compare
 						<Link
 							text="this strange attractor"
 							link="https://www.geogebra.org/m/wtdx457q#material/JGGV5b5A"
@@ -116,22 +120,20 @@
 			</li>
 			<li>
 				<p class="font-medium text-2xl text-pink-600 my-9">
-					How will Mathemagical.js compare to Manim?
+					How will Mathemagical.js compare to <b>Manim</b>?
 				</p>
 				<ul class="list-disc list-inside space-y-4">
 					<li>
-						Manim is incredibly powerful and very popular among the technical content creators.
-						Built in python, it offers very nice and sensible defaults without compromising on
-						extensibility. It is, nevertheless, a heavy program to run, quite difficult to install
-						and not that easy to setup and use. The idea is to take <b
-							>all that's good in Manim and bring it to the p5.js world</b
-						>, with 0 installation and a much softer learning curve.
+						Manim is powerful, and it’s popular among technical content creators. Built in Python,
+						it offers nice, sensible defaults without compromising extensibility. Nevertheless, it’s
+						<b>quite difficult to install</b>, it’s a heavy program to run, and it’s not easy for
+						beginners to use.
 					</li>
 					<li>
-						Also, while it has already been considered and tried, Manim is <b
-							>not quite as suited for the web as p5.js is.</b
-						> p5 being a native web citizen allows for immediate web integration and sharing, as well
-						as enabling interactivity, a core element for math learning.
+						Our idea is to <b>bring the best of Manim to the web</b>, with zero installation and a
+						much softer learning curve. We’ll do this by building on p5.js, which is built for the
+						web and enables immediate web integration, sharing, and exciting opportunities for
+						interactivity, a core element for math learning.
 					</li>
 				</ul>
 			</li>
