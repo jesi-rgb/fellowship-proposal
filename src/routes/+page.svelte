@@ -112,7 +112,7 @@
 <Page>
 	<Hero text="Learn more" />
 
-	<div class="flex flex-col items-stretch xl:flex-row items-start justify-evenly gap-10 mt-20">
+	<div class="flex flex-col items-stretch xl:flex-row justify-evenly gap-10 mt-20">
 		<Card title="Proposal Page" link="/proposal">
 			<NotePencil slot="icon" size={200} />
 			<p slot="content">
