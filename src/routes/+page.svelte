@@ -1,25 +1,17 @@
 <script>
-	import { draw } from 'svelte/transition';
-	import { cubicInOut } from 'svelte/easing';
-	import { Handshake, Hourglass, Intersect, MicrophoneStage, NotePencil } from 'phosphor-svelte';
+	import { Handshake, MicrophoneStage, NotePencil } from 'phosphor-svelte';
 	import Hero from '../lib/Components/Hero.svelte';
 	import Link from '../lib/Components/Link.svelte';
 	import Page from '../lib/Components/Page.svelte';
 	import Paragraph from '../lib/Components/Paragraph.svelte';
 	import Card from '../lib/Components/Card.svelte';
-	import { onMount } from 'svelte';
-
-	let mounted = false;
-	onMount(() => {
-		mounted = true;
-	});
 </script>
 
 <svelte:head>
 	<title>Processing Fellowship 2023</title>
 </svelte:head>
 
-<Page id="Intro">
+<Page>
 	<Hero text="Processing Fellowship 2023" />
 	<Paragraph>
 		<p>
@@ -38,7 +30,7 @@
 	</Paragraph>
 </Page>
 
-<Page id="Proposal">
+<Page>
 	<!-- <svg height="1000" width="100%" class="absolute -ml-36 -z-10"> -->
 	<!-- 	{#if mounted} -->
 	<!-- 		<path -->
