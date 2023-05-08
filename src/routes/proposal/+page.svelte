@@ -30,22 +30,23 @@
 
 	<Heading>The problem</Heading>
 	<Paragraph>
-		We want to solve an accessibility problem: math learners and educators are the most likely to
-		benefit from software libraries for mathematical visualization, but no existing library is
-		accessible to them.
+		We want to solve an <b>accessibility</b> problem: math learners and educators are the most
+		likely to benefit from software libraries for mathematical visualization, but no existing
+		library is accessible to them.
 
 		<br /><br />
 		Basic mathematical visualizations often require an intimidating amount of programming, even with
 		a beginner-friendly library like p5.js.
 
 		<br /><br />
-		In Python, Manim has recently become a popular solution, and for good reason. Owing to its gorgeous
-		visualizations, it has been called the gold standard of mathematical animation.
+		In Python, <b>Manim has recently become a popular solution</b>, and for good reason. Owing to
+		its gorgeous visualizations, it has been called the gold standard of mathematical animation.
 
 		<br /><br />
 		Unfortunately, Manim users must have access to a machine on which they can install software. They
 		must be ready to implement a difficult installation process. They must know how to use the command
-		line and be familiar with object-oriented programming. All this is required to draw a circle.
+		line and be familiar with object-oriented programming. All this is required to
+		<b>draw a circle</b>.
 	</Paragraph>
 
 	<Heading>The solution</Heading>
