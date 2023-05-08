@@ -17,6 +17,7 @@
 	<div>
 		<Heading>Selected Work: Greg</Heading>
 
+		<Heading>p5.js</Heading>
 		<div class="grid grid-cols-2 justify-evenly items-center gap-1 mb-10">
 			<div>
 				<WorkTitle
