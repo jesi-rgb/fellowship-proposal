@@ -15,7 +15,7 @@
 	});
 </script>
 
-<div {id} class="h-[70vh] my-20 relative">
+<div {id} class="my-20 relative">
 	{#if visible}
 		<div in:fly={{ y: 150, duration: 1000, easing: cubicInOut }}>
 			<slot />

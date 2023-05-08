@@ -16,7 +16,7 @@
 				Built with {' '}<span class="inline-block align-middle mb-1 text-pink-600"
 					><Heart weight="fill" /></span
 				>
-				by <Link text="Jesús Rascón" link="https://jesirgb-com" /> and <Link
+				by <Link text="Jesús Rascón" link="https://jesirgb.com" /> and <Link
 					text="Greg Stanton"
 					link="http://www.highermathhelp.com/"
 				/>
@@ -44,6 +44,7 @@
 						<li><Link text="Twitter" link="https://twitter.com/HigherMathNotes" /></li>
 						<li><Link text="Github" link="https://github.com/GregStanton" /></li>
 						<li><Link text="Youtube" link="https://www.youtube.com/c/HigherMathNotes" /></li>
+						<li><Link text="Reddit" link="https://www.reddit.com/user/HigherMathHelp" /></li>
 						<li>
 							<Link
 								text="Wikimedia"

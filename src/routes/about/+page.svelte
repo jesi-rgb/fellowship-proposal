@@ -34,7 +34,7 @@
 			</p>
 			<br />
 			<p>
-				Here are some examples of his work in the library <span class="font-bold">visual ODE</span>:
+				Here are some examples of his work in the library <span class="font-bold">visualODE</span>:
 			</p>
 		</Paragraph>
 		<iframe
@@ -54,7 +54,7 @@
 			/>
 
 			<WorkItem
-				title="Visual ODE Demo"
+				title="VisualODE Demo"
 				link="https://www.khanacademy.org/computer-programming/visualode-demo/6127327220629504"
 			/>
 
@@ -62,11 +62,6 @@
 				title="Degenerate Hyperbola"
 				link="https://www.khanacademy.org/computer-programming/degenerate-hyperbola-interactive/5729571474915328"
 			/>
-
-			<!-- <WorkItem -->
-			<!-- 	title="Logo animation featuring cycloid" -->
-			<!-- 	link="https://www.khanacademy.org/computer-programming/spin-off-of-project-ad-design/6473163029282816" -->
-			<!-- /> -->
 
 			<WorkItem
 				title="Numerical Differentiation"
@@ -87,7 +82,7 @@
 		bio="I am a freelance mathematical animator, web developer and designer. I am mainly a technical content creator, using a myriad of tools to create beautiful and engaging explainers on the internet."
 	>
 		<Paragraph>
-			<p class="my-5 font-medium text-justify">
+			<p class="my-5 text-justify">
 				Jesús has mainly worked as an animator and web developer on a freelance basis. He's also
 				participated in <Link
 					text="GSoC'22 with the Processing Foundation"
