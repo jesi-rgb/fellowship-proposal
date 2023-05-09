@@ -5,6 +5,7 @@
 	import Page from '../lib/Components/Page.svelte';
 	import Paragraph from '../lib/Components/Paragraph.svelte';
 	import Card from '../lib/Components/Card.svelte';
+	import Heading from '../lib/Components/Heading.svelte';
 </script>
 
 <svelte:head>
@@ -12,7 +13,8 @@
 </svelte:head>
 
 <Page>
-	<Hero text="Mathemagical.js fellowship proposal" />
+	<Hero text="Mathemagical.js" />
+	<Heading>Proposal for the Processing Fellowship 2023</Heading>
 	<Paragraph>
 		<p>
 			Hi! We are <span class="font-bold">Greg</span> and <span class="font-bold">Jesús</span>, two
@@ -78,8 +80,8 @@
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Greg</div>
 	<Paragraph>
 		I’m a professional <b>math tutor</b>, a YouTuber, and a programmer. I built an early version of
-		Mathemagical.js called <b>visualODE</b>. As a Wikimedia Foundation grantee, I created a wiki and
-		a community of math educators for Eventmath (in collaboration with Dr. Brendan Sullivan).
+		Mathemagical.js called <b>visualODE</b>. I also created the website for my Higher Math Help
+		service, where I have <b>fifteen years of experience</b> working with learners one on one.
 
 		<br />
 		<br />

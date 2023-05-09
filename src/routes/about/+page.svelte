@@ -9,7 +9,7 @@
 	<title>Joint Portfolio — Processing Fellowship 2023</title>
 </svelte:head>
 
-<Hero text="Joint Portfolio" />
+<Hero text="Our Work" />
 <div class="text-2xl tracking-tight font-medium">
 	Here, you can check out some of the work we've done over the years. We hope you like it!
 </div>

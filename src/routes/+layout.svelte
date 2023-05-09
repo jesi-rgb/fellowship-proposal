@@ -4,7 +4,7 @@
 	import Header from '../lib/Components/Header.svelte';
 </script>
 
-<div class="mx-auto max-w-sm xl:max-w-screen-lg my-20">
+<div class="mx-auto max-w-xs sm:max-w-sm xl:max-w-screen-lg my-20">
 	<Header />
 	<slot />
 	<Footer />

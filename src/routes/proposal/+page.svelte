@@ -114,8 +114,9 @@
 						/> built with p5.js, both from the same author).
 					</li>
 					<li>
-						Creations built on p5.js are limited only by the imagination. We can use it to make
-						anything we can imagine, in 2D or 3D. We can include sound and other multimedia files.
+						Creations built on p5.js are limited <b>only by the imagination</b>. We can use it to
+						make anything we can imagine, in 2D or 3D. We can include sound and other multimedia
+						files.
 					</li>
 				</ul>
 			</li>
@@ -127,8 +128,8 @@
 					<li>
 						Manim is powerful, and it’s popular among technical content creators. Built in Python,
 						it offers nice, sensible defaults without compromising extensibility. Nevertheless, it’s
-						<b>quite difficult to install</b>, it’s a heavy program to run, and it’s not easy for
-						beginners to use.
+						quite difficult to install, it’s a heavy program to run, and it’s
+						<b>not easy for beginners</b> to use.
 					</li>
 					<li>
 						Our idea is to <b>bring the best of Manim to the web</b>, with zero installation and a
