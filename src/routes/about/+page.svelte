@@ -18,7 +18,7 @@
 		<Heading>Selected Work: Greg</Heading>
 
 		<Heading>p5.js</Heading>
-		<div class="grid grid-cols-2 justify-evenly items-center gap-1 mb-10">
+		<div class="grid grid-cols-1 xl:grid-cols-2 justify-evenly items-center gap-1 mb-10">
 			<div>
 				<WorkTitle
 					title="Graphing Calculator"
