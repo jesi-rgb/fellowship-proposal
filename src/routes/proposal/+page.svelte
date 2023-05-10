@@ -90,7 +90,7 @@
 		<ul class="list-decimal">
 			<li>
 				<p class="font-medium text-2xl text-pink-600 my-9">
-					What will Mathemagical.js do that <b>Geogebra</b> or <b>Desmos</b> can't?
+					What will I be able to do with <b>Mathemagical.js</b> that I can't do with Desmos or Geogebra?
 				</p>
 				<ul class="list-disc list-inside space-y-4">
 					<li>
