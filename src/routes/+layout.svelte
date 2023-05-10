@@ -4,6 +4,7 @@
 	import '../app.css';
 	import Footer from '../lib/Components/Footer.svelte';
 	import Header from '../lib/Components/Header.svelte';
+	import { MetaTags } from 'svelte-meta-tags';
 
 	let visible = false;
 
@@ -12,6 +13,20 @@
 	});
 </script>
 
+<MetaTags
+	title="Mathemagical.js"
+	titleTemplate="%s | Mathemagical.js"
+	description="MatheMagical.js is a proposed p5.js library for making web-based mathematical figures, animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it will be easy enough for beginners and flexible enough for experts."
+	canonical="https://www.canonical.ie/"
+	twitter={{
+		handle: '@jesi_rgb',
+		cardType: 'summary_large_image',
+		title: 'Mathemagical.js',
+		description: 'This example uses more of the available config options.'
+	}}
+/>
+
+<!-- this will make it so that the webpage flies in on load, but only the first time -->
 <div class="mx-auto max-w-xs sm:max-w-sm xl:max-w-screen-lg my-20">
 	<Header />
 	{#if visible}

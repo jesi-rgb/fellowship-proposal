@@ -13,7 +13,7 @@
 	<Hero text="Our Proposal" />
 	<Paragraph>
 		<div>
-			<span class="font-mono font-bold"> MatheMagical.js</span> is a proposed p5.js library for
+			<span class="font-mono font-bold"> Mathemagical.js</span> is a proposed p5.js library for
 			making web-based mathematical figures, animations, and interactives in 2D and 3D.
 
 			<br />

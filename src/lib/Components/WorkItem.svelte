@@ -8,7 +8,6 @@
 		'/embedded?id=1682504806298-0.18545174546998788&origin=http%3A%2F%2Flocalhost%3A5173&editor=no&buttons=no&author=yes&embed=yes';
 </script>
 
-<!-- https://www.khanacademy.org/computer-programming/spin-off-of-project-animal-attack/5961848678645760/embedded?amp;origin=http%3A%2F%2Flocalhost%3A5173&amp;editor=no&amp;buttons=no&amp;author=yes&amp;embed=yes -->
 <div>
 	<WorkTitle {title} {link} />
 	{#if link}
