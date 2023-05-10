@@ -6,33 +6,21 @@
 </script>
 
 <svelte:head>
-	<title>Our Proposal — Processing Fellowship 2023</title>
+	<title>Our proposal — Processing Fellowship 2023</title>
 </svelte:head>
 
 <div class=" max-w-sm md:max-w-md xl:max-w-xl">
-	<Hero text="Our Proposal" />
+	<Hero text="Our proposal" />
 	<Paragraph>
-		<div>
-			<span class="font-mono font-bold"> Mathemagical.js</span> is a proposed p5.js library for
-			making web-based mathematical figures, animations, and interactives in 2D and 3D.
-
-			<br />
-			<br />
-			Designed for learners, educators, and creators, it will be easy enough for beginners and flexible
-			enough for experts.
-
-			<p class="text-sm mt-10 opacity-70">
-				If you’re interested in this project, please let us know by filling out our
-				<Link text="Community Form" link="/form" />! We’ll keep you updated.
-			</p>
-		</div>
+		We plan to solve a problem faced by both learners and educators. By doing so, we can enable them
+		to build, explore, and create in ways that are currently just out of reach.
 	</Paragraph>
 
-	<Heading>The problem</Heading>
+	<Heading>The problem: Accessibility</Heading>
 	<Paragraph>
-		We want to solve an <b>accessibility</b> problem: math learners and educators are the most
-		likely to benefit from software libraries for mathematical visualization, but no existing
-		library is accessible to them.
+		We want to solve an accessibility problem: math learners and educators are the most likely to
+		benefit from software libraries for mathematical visualization, but no existing library is
+		accessible to them.
 
 		<br /><br />
 		Basic mathematical visualizations often require an intimidating amount of programming, even with
@@ -48,7 +36,7 @@
 		line and be familiar with object-oriented programming. All this is required to draw a circle.
 	</Paragraph>
 
-	<Heading>The solution</Heading>
+	<Heading>The solution: Mathematical.js</Heading>
 	<Paragraph>
 		Like the Quickstart tutorial for Manim, the Get Started guide for p5.js also teaches users how
 		to draw a circle. The difference in accessibility is night and day!
@@ -63,8 +51,7 @@
 
 		<ul class="list-disc">
 			<li>
-				<b>Accessibility</b>: It must be easy for total beginners to use in the browser, with no
-				setup.
+				<b>Accessibility</b>: It must be easy for total beginners.
 			</li>
 
 			<li><b>Interactivity</b>: It must be easy to make visualizations interactive!</li>
@@ -78,7 +65,7 @@
 		/>, we know we’re on the right track!
 	</Paragraph>
 
-	<Heading>The Propopsal</Heading>
+	<Heading>Our proposal</Heading>
 	<Paragraph>
 		We propose Mathemagical.js, a p5.js library for making web-based mathematical figures,
 		animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it
@@ -120,9 +107,8 @@
 						/> built with p5.js, both from the same author).
 					</li>
 					<li>
-						Creations built on p5.js are limited <b>only by the imagination</b>. We can use it to
-						make anything we can imagine, in 2D or 3D. We can include sound and other multimedia
-						files.
+						Creations built on p5.js are limited only by the imagination. We can use it to make
+						anything we can imagine, in 2D or 3D. We can include sound and other multimedia files.
 					</li>
 				</ul>
 			</li>

@@ -33,19 +33,7 @@
 </Page>
 
 <Page>
-	<!-- <svg height="1000" width="100%" class="absolute -ml-36 -z-10"> -->
-	<!-- 	{#if mounted} -->
-	<!-- 		<path -->
-	<!-- 			in:draw={{ duration: 1500, easing: cubicInOut }} -->
-	<!-- 			d="M0,250 C390,82 322,451 1462,250" -->
-	<!-- 			fill="transparent" -->
-	<!-- 			stroke="rgba(219, 40, 119, 1)" -->
-	<!-- 			stroke-width="2" -->
-	<!-- 			stroke-opacity=".3" -->
-	<!-- 		/> -->
-	<!-- 	{/if} -->
-	<!-- </svg> -->
-	<Hero text="Our Proposal" />
+	<Hero text="Our proposal" />
 	<div>
 		<Paragraph>
 			<p>
@@ -123,7 +111,7 @@
 		</Card>
 
 		<Card
-			title="Community Form"
+			title="Community form"
 			link="https://docs.google.com/forms/d/e/1FAIpQLScmVUW9doOZlzCN7k-P5XqKIGUIx_tWplqUySZSneT7IelDKA/viewform?usp=share_link"
 		>
 			<MicrophoneStage slot="icon" size={200} />

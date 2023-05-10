@@ -29,6 +29,6 @@
 		href="https://docs.google.com/forms/d/e/1FAIpQLScmVUW9doOZlzCN7k-P5XqKIGUIx_tWplqUySZSneT7IelDKA/viewform?usp=share_link"
 	>
 		<MicrophoneStage weight="bold" class="group-hover:rotate-12 transition-transform" />
-		<p class="hidden xl:block">Community Form</p>
+		<p class="hidden xl:block">Community form</p>
 	</a>
 </div>

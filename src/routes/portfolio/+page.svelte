@@ -11,11 +11,14 @@
 
 <Hero text="Portfolio" />
 <div class="text-2xl font-light">
-	Here, you can check out some of the work we've done over the years. We hope you like it!
+	Here, you can check out some of the work we've done over the years. We hope you like it! <br />
+	<i class="text-lg text-gray-600 italic"
+		>(Pssst… Try clicking and dragging! Some of these demos are interactive.)</i
+	>
 </div>
 <div class="my-10 flex-col space-y-24">
 	<div>
-		<Heading>Selected Work: Greg</Heading>
+		<Heading>Selected work: Greg</Heading>
 
 		<Heading>p5.js</Heading>
 		<div class="grid grid-cols-1 xl:grid-cols-2 justify-evenly items-center gap-14 mb-10">
@@ -89,7 +92,7 @@
 				link="https://www.khanacademy.org/computer-programming/numerical-differentiation-applet/4587401748643840"
 			/>
 			<WorkItem
-				title="Implicit curve animator"
+				title="Implicit Curve Animator"
 				link="https://www.khanacademy.org/computer-programming/implicit-curve-animator-with-tangents/4886044829777920"
 			/>
 		</div>
@@ -102,7 +105,7 @@
 	<!---->
 
 	<div>
-		<Heading>Selected Work: Jesús</Heading>
+		<Heading>Selected work: Jesús</Heading>
 
 		<div class="flex-col xl:grid xl:grid-cols-2 xl:gap-5">
 			<WorkItem title="How Imaginary Numbers Were Invented">
