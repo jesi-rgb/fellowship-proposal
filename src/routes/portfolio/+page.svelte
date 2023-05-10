@@ -6,11 +6,11 @@
 </script>
 
 <svelte:head>
-	<title>Joint Portfolio — Processing Fellowship 2023</title>
+	<title>Portfolio — Processing Fellowship 2023</title>
 </svelte:head>
 
-<Hero text="Our Work" />
-<div class="text-2xl tracking-tight font-medium">
+<Hero text="Portfolio" />
+<div class="text-2xl font-light">
 	Here, you can check out some of the work we've done over the years. We hope you like it!
 </div>
 <div class="my-10 flex-col space-y-24">
@@ -18,7 +18,7 @@
 		<Heading>Selected Work: Greg</Heading>
 
 		<Heading>p5.js</Heading>
-		<div class="grid grid-cols-1 xl:grid-cols-2 justify-evenly items-center gap-1 mb-10">
+		<div class="grid grid-cols-1 xl:grid-cols-2 justify-evenly items-center gap-14 mb-10">
 			<div>
 				<WorkTitle
 					title="Graphing Calculator"
@@ -37,7 +37,7 @@
 			<div>
 				<WorkTitle
 					title="Mass Spring Simulator"
-					link="https://editor.p5js.org/highermathnotes/sketches/pq3qzh3hr"
+					link="https://editor.p5js.org/highermathnotes/sketches/Q5vcziXmJ"
 				/>
 				<iframe
 					loading="lazy"
@@ -53,7 +53,7 @@
 				<a href="https://editor.p5js.org/highermathnotes/sketches/pq3qzh3hr">
 					<WorkTitle
 						title="Bacteria Simulation: Discrete Space"
-						link="https://editor.p5js.org/highermathnotes/sketches/JFFLwdC-_"
+						link="https://editor.p5js.org/highermathnotes/sketches/0FQg_1mP5"
 					/>
 					<img
 						src="/assets/bacteria.png"
@@ -67,7 +67,7 @@
 
 		<Heading>visualODE</Heading>
 		<div
-			class="max-w-md mx-auto flex-col xl:grid xl:grid-cols-2 space-y-20 xl:space-y-0 xl:gap-32 xl:justify-around xl:max-w-5xl"
+			class="max-w-md mx-auto flex-col xl:grid xl:grid-cols-2 gap-10 xl:gap-14 xl:justify-around xl:max-w-5xl"
 		>
 			<WorkItem
 				title="Normal Distribution"

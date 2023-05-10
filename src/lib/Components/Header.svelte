@@ -2,7 +2,7 @@
 	import { Handshake, House, MicrophoneStage, NotePencil } from 'phosphor-svelte';
 </script>
 
-<div class="flex flex-row space-x-6 justify-around">
+<div class="flex flex-row space-x-10 justify-evenly xl:justify-start">
 	<a
 		class="flex items-center space-x-2 text-2xl group hover:text-pink-600 transition-colors"
 		href="/"
@@ -19,10 +19,10 @@
 	</a>
 	<a
 		class="flex items-center space-x-2 text-2xl group hover:text-pink-600 transition-colors"
-		href="/about"
+		href="/portfolio"
 	>
 		<Handshake weight="bold" class="group-hover:rotate-12 transition-transform" />
-		<p class="hidden xl:block">Our Work</p>
+		<p class="hidden xl:block">Portfolio</p>
 	</a>
 	<a
 		class="flex items-center space-x-2 text-2xl group hover:text-pink-600 transition-colors"

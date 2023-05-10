@@ -6,7 +6,10 @@
 </script>
 
 <div class="flex items-center space-x-1">
-	<h3 class={'font-semibold text-lg ' + (link === undefined ? '' : 'underline')}>
+	<h3
+		class={'hover:text-pink-600 transition-colors font-semibold text-lg ' +
+			(link === undefined ? '' : 'underline')}
+	>
 		<a href={link}>
 			{title}
 		</a>

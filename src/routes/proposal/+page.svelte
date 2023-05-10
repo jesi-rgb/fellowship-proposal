@@ -9,7 +9,7 @@
 	<title>Our Proposal — Processing Fellowship 2023</title>
 </svelte:head>
 
-<div class="mx-auto max-w-sm md:max-w-md xl:max-w-xl">
+<div class=" max-w-sm md:max-w-md xl:max-w-xl">
 	<Hero text="Our Proposal" />
 	<Paragraph>
 		<div>
@@ -23,7 +23,7 @@
 
 			<p class="text-sm mt-10 opacity-70">
 				If you’re interested in this project, please let us know by filling out our
-				<Link text="community form" link="/form" />! We’ll keep you updated.
+				<Link text="Community Form" link="/form" />! We’ll keep you updated.
 			</p>
 		</div>
 	</Paragraph>
@@ -39,14 +39,13 @@
 		a beginner-friendly library like p5.js.
 
 		<br /><br />
-		In Python, <b>Manim has recently become a popular solution</b>, and for good reason. Owing to
-		its gorgeous visualizations, it has been called the gold standard of mathematical animation.
+		In Python, Manim has recently become a popular solution, and for good reason. Owing to its gorgeous
+		visualizations, it has been called the gold standard of mathematical animation.
 
 		<br /><br />
 		Unfortunately, Manim users must have access to a machine on which they can install software. They
 		must be ready to implement a difficult installation process. They must know how to use the command
-		line and be familiar with object-oriented programming. All this is required to
-		<b>draw a circle</b>.
+		line and be familiar with object-oriented programming. All this is required to draw a circle.
 	</Paragraph>
 
 	<Heading>The solution</Heading>
@@ -59,7 +58,7 @@
 		be as capable as Manim, but beginner friendly, and built for the web.
 
 		<br /><br />
-		We have <b>three</b> design priorities:
+		We have three design priorities:
 		<br /><br />
 
 		<ul class="list-disc">
@@ -77,6 +76,13 @@
 			text="response on Twitter"
 			link="https://twitter.com/HigherMathNotes/status/1638652022022115328"
 		/>, we know we’re on the right track!
+	</Paragraph>
+
+	<Heading>The Propopsal</Heading>
+	<Paragraph>
+		We propose Mathemagical.js, a p5.js library for making web-based mathematical figures,
+		animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it
+		will be easy enough for beginners and flexible enough for experts.
 	</Paragraph>
 
 	<Heading>FAQ</Heading>
