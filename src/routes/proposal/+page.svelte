@@ -36,7 +36,7 @@
 		line and be familiar with object-oriented programming. All this is required to draw a circle.
 	</Paragraph>
 
-	<Heading>The solution: Mathematical.js</Heading>
+	<Heading>The solution: Mathemagical.js</Heading>
 	<Paragraph>
 		Like the Quickstart tutorial for Manim, the Get Started guide for p5.js also teaches users how
 		to draw a circle. The difference in accessibility is night and day!
@@ -120,13 +120,13 @@
 					<li>
 						Manim is powerful, and it’s popular among technical content creators. Built in Python,
 						it offers nice, sensible defaults without compromising extensibility. Nevertheless, it’s
-						quite difficult to install, it’s a heavy program to run, and it’s
-						<b>not easy for beginners</b> to use.
+						quite difficult to install, it’s a heavy program to run, and it’s not easy for beginners
+						to use.
 					</li>
 					<li>
-						Our idea is to <b>bring the best of Manim to the web</b>, with zero installation and a
-						much softer learning curve. We’ll do this by building on p5.js, which is built for the
-						web and enables immediate web integration, sharing, and exciting opportunities for
+						Our idea is to bring the best of Manim to the web, with zero installation and a much
+						softer learning curve. We’ll do this by building on p5.js, which is built for the web
+						and enables immediate web integration, sharing, and exciting opportunities for
 						interactivity, a core element for math learning.
 					</li>
 				</ul>
