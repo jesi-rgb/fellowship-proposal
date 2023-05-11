@@ -27,7 +27,9 @@
 />
 
 <!-- this will make it so that the webpage flies in on load, but only the first time -->
-<div class="mx-auto max-w-xs sm:max-w-sm xl:max-w-screen-lg my-20">
+<div
+	class="mx-auto selection:bg-pink-600 selection:text-white max-w-xs sm:max-w-sm xl:max-w-screen-lg my-20"
+>
 	<Header />
 	{#if visible}
 		<div in:fly={{ y: 20, duration: 1000 }}>
