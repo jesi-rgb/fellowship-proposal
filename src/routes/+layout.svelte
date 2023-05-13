@@ -22,7 +22,8 @@
 		handle: '@jesi_rgb',
 		cardType: 'summary_large_image',
 		title: 'Mathemagical.js',
-		description: 'This example uses more of the available config options.'
+		description:
+			'MatheMagical.js is a proposed p5.js library for making web-based mathematical figures, animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it will be easy enough for beginners and flexible enough for experts.'
 	}}
 />
 
