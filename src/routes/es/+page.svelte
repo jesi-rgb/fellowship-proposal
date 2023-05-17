@@ -99,7 +99,7 @@
 	<Hero text="Más detalles" />
 
 	<div class="flex flex-col items-stretch xl:flex-row justify-evenly gap-10 mt-20">
-		<Card title="Propuesta" link="/proposal">
+		<Card title="Propuesta" link="/es/proposal">
 			<NotePencil slot="icon" size={200} />
 			<p slot="content">
 				Aquí puedes consultar más detalles y preguntas frecuentes que actualizaremos en función de
@@ -107,7 +107,7 @@
 			</p>
 		</Card>
 
-		<Card title="Portafolio" link="/portfolio">
+		<Card title="Portafolio" link="/es/portfolio">
 			<Handshake slot="icon" size={200} />
 			<p slot="content">
 				Puedes echar un ojo a nuestro portafolio para ver algunos de los proyectos en los que hemos

@@ -95,7 +95,7 @@
 	<Hero text="Learn more" />
 
 	<div class="flex flex-col items-stretch xl:flex-row justify-evenly gap-10 mt-20">
-		<Card title="Proposal" link="/proposal">
+		<Card title="Proposal" link="/en/proposal">
 			<NotePencil slot="icon" size={200} />
 			<p slot="content">
 				You can check this out for more details and an FAQ that we’ll update based on questions from
@@ -103,7 +103,7 @@
 			</p>
 		</Card>
 
-		<Card title="Portfolio" link="/portfolio">
+		<Card title="Portfolio" link="/en/portfolio">
 			<Handshake slot="icon" size={200} />
 			<p slot="content">
 				You can take a gander at our joint portfolio, to see some of the cool stuff we’ve made.
