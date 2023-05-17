@@ -1,11 +1,11 @@
 <script>
 	import { Handshake, MicrophoneStage, NotePencil } from 'phosphor-svelte';
-	import Hero from '../lib/Components/Hero.svelte';
-	import Link from '../lib/Components/Link.svelte';
-	import Page from '../lib/Components/Page.svelte';
-	import Paragraph from '../lib/Components/Paragraph.svelte';
-	import Card from '../lib/Components/Card.svelte';
-	import Heading from '../lib/Components/Heading.svelte';
+	import Hero from '$lib/Components/Hero.svelte';
+	import Link from '$lib/Components/Link.svelte';
+	import Page from '$lib/Components/Page.svelte';
+	import Paragraph from '$lib/Components/Paragraph.svelte';
+	import Card from '$lib/Components/Card.svelte';
+	import Heading from '$lib/Components/Heading.svelte';
 </script>
 
 <svelte:head>
