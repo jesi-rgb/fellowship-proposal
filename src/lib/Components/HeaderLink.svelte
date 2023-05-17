@@ -8,5 +8,5 @@
 	href={link}
 >
 	<slot name="icon" />
-	<p class="w-20 md:w-fit mt-1 text-center mx-auto text-xs xl:w-fit xl:text-2xl">{text}</p>
+	<p class="w-20 md:w-fit mt-1 xl:mt-0 text-center mx-auto text-xs xl:w-fit xl:text-2xl">{text}</p>
 </a>
