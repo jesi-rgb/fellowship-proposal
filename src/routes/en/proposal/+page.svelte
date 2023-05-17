@@ -1,8 +1,8 @@
 <script>
-	import Paragraph from '../../lib/Components/Paragraph.svelte';
-	import Link from '../../lib/Components/Link.svelte';
-	import Hero from '../../lib/Components/Hero.svelte';
-	import Heading from '../../lib/Components/Heading.svelte';
+	import Paragraph from '$lib/Components/Paragraph.svelte';
+	import Link from '$lib/Components/Link.svelte';
+	import Hero from '$lib/Components/Hero.svelte';
+	import Heading from '$lib/Components/Heading.svelte';
 </script>
 
 <svelte:head>

@@ -33,7 +33,7 @@
 				<div
 					class="font-bold mt-12 text-pink-600 hover:text-pink-400 transition-colors tracking-tighter text-3xl"
 				>
-					<a href="/">Propuesta de Mathemagical.js</a>
+					<a href="/es">Propuesta de Mathemagical.js</a>
 				</div>
 			</div>
 
