@@ -29,7 +29,7 @@
 
 <!-- this will make it so that the webpage flies in on load, but only the first time -->
 <div
-	class="mx-auto selection:bg-pink-600 selection:text-white max-w-xs sm:max-w-sm xl:max-w-screen-lg my-20"
+	class="mx-auto selection:bg-pink-600 selection:text-white max-w-xs sm:max-w-sm md:max-w-md xl:max-w-screen-lg my-20"
 >
 	<Header />
 	{#if visible}
