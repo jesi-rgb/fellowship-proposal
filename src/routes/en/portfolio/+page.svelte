@@ -1,8 +1,8 @@
 <script>
-	import Heading from '../../lib/Components/Heading.svelte';
-	import Hero from '../../lib/Components/Hero.svelte';
-	import WorkItem from '../../lib/Components/WorkItem.svelte';
-	import WorkTitle from '../../lib/Components/WorkTitle.svelte';
+	import Heading from '$lib/Components/Heading.svelte';
+	import Hero from '$lib/Components/Hero.svelte';
+	import WorkItem from '$lib/Components/WorkItem.svelte';
+	import WorkTitle from '$lib/Components/WorkTitle.svelte';
 </script>
 
 <svelte:head>

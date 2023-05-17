@@ -11,8 +11,8 @@
 
 <Hero text="Portafolio" />
 <div class="text-2xl font-light">
-	Aquí puedes ver el trabajo que hemos elaborado a lo largo de los años. ¡Esperamos que os guste! <br
-	/>
+	Aquí puedes ver el trabajo que hemos elaborado a lo largo de los años. <br /> ¡Esperamos que os
+	guste! <br />
 	<i class="text-lg text-gray-600 italic"
 		>(Pssst… ¡Clica y arrastra todo lo que veas! La mayoría de estas demos son interactivas.)</i
 	>

@@ -1,2 +1,2 @@
-<div>portfolio en español</div>
+<div>propuesta en español</div>
 

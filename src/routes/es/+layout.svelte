@@ -1,9 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
-	import '../app.css';
-	import Footer from '../lib/Components/Footer.svelte';
-	import Header from '../lib/Components/Header.svelte';
+	import '../../app.css';
+	import Footer from '$lib/Components/FooterES.svelte';
+	import Header from '$lib/Components/HeaderES.svelte';
 	import { MetaTags } from 'svelte-meta-tags';
 
 	let visible = false;
