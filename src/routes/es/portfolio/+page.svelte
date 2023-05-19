@@ -25,7 +25,7 @@
 		<div class="grid grid-cols-1 xl:grid-cols-2 justify-evenly items-center gap-14 mb-10">
 			<div>
 				<WorkTitle
-					title="Calculadora Gráfica"
+					title="Calculadora gráfica"
 					link="https://editor.p5js.org/highermathnotes/full/Up0ONQ9dE"
 				/>
 				<iframe
@@ -74,7 +74,7 @@
 			class="max-w-md mx-auto flex-col xl:grid xl:grid-cols-2 space-y-9 xl:space-y-0 xl:gap-14 xl:justify-around xl:max-w-5xl"
 		>
 			<WorkItem
-				title="Distribución Normal"
+				title="Distribución normal"
 				link="https://www.khanacademy.org/computer-programming/interactive-normal-distribution/6221313412710400"
 			/>
 

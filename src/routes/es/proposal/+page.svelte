@@ -19,9 +19,9 @@
 
 	<Heading>El problema: La accesibilidad</Heading>
 	<Paragraph>
-		Queremos resolver un problema de accesibilidad: estudiantes de matemáticas y profesores son los
-		que más se benefician de librerías y piezas de software para la visualización de las
-		matemáticas, pero no existe semejante librería que sea lo suficientemente accesible aún.
+		Queremos resolver un problema de accesibilidad: los estudiantes y profesores de matemáticas se
+		beneficiarían enormemente de librerías para la visualización de las matemáticas, pero aún no
+		existe una librería que sea accesible para ellos.
 
 		<br /><br />
 		Crear visualizaciones matemáticas básicas a menudo requiere de una intimidante cantidad de programación,
@@ -69,7 +69,7 @@
 
 	<Heading>Nuestra propuesta</Heading>
 	<Paragraph>
-		Proponemos Matemagical.js, una librería basada en p5.js para construir figuras matemáticas,
+		Proponemos Mathemagical.js, una librería basada en p5.js para construir figuras matemáticas,
 		animaciones y sistemas interactivos en 2D y en 3D, todo en la web. Diseñado para estudiantes,
 		profesores y creadores, será suficientemente fácil para los novatos y suficientemente flexible
 		para los expertos.
@@ -111,13 +111,13 @@
 					<li>
 						Lo que uno puede crear con p5.js solo está limitado por la imaginación. Se puede
 						utilizar para cualquier cosa imaginable, ya sea en 2D o en 3D. Hasta podemos incluir
-						sonidos y otro tipo de multimedia.
+						sonidos y otros tipos de multimedia.
 					</li>
 				</ul>
 			</li>
 			<li>
 				<p class="font-medium text-2xl text-pink-600 my-9">
-					¿Cómo se compara Matemagical.js con Manim?
+					¿Cómo se compara Mathemagical.js con Manim?
 				</p>
 				<ul class="list-disc list-inside space-y-4">
 					<li>

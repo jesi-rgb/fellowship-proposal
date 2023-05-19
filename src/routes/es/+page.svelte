@@ -53,9 +53,8 @@
 			<p>
 				Para hacer esto posible, proponemos Mathemagical.js: una herramienta basada en tecnologías
 				web para crear figuras matemáticas, animaciones y elementos interactivos en 2D y 3D.
-				Aprovechando el increíble trabajo que la comunidad de p5.js está acometiendo, podremos
-				hacerla suficientemente fácil para los principiantes, pero suficientemente flexible para los
-				expertos.
+				Aprovechando el increíble trabajo de la comunidad de p5.js, podremos hacerla suficientemente
+				fácil para los principiantes, pero igualmente flexible para los expertos.
 			</p>
 
 			<br />
@@ -71,13 +70,13 @@
 	<Paragraph>
 		Soy un <b>profesor de matemáticas</b>, youtuber y programador profesional. Hace tiempo construí
 		una primera versión de Mathemagical.js llamada visualODE. También he montado una página web para
-		mi servicio de Higher Math Help, en la que tengo 15 años de experiencia tratando con alumnos de
+		mi servicio de Higher Math Help, en el que tengo 15 años de experiencia tratando con alumnos de
 		tú a tú.
 
 		<br />
 		<br />
 		Como becario de la Fundación Wikimedia, he creado una <b>wiki</b> y una <b>comunidad</b> de profesores
-		de matemáticas para Eventmath (en colaboración con el Dr. Brendan Sullivan). My meta a largo plazo
+		de matemáticas para Eventmath (en colaboración con el Dr. Brendan Sullivan). Mi meta a largo plazo
 		es compartir mi material educativo online con estudiantes de todo el mundo, de forma gratuita.
 	</Paragraph>
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Jesús</div>
