@@ -15,14 +15,14 @@
 
 <MetaTags
 	title="Mathemagical.js"
-	description="Mathemagical.js es una propuesta para construir una librería de figuras, animaciones y sistemas interactivos matemáticos basados en tecnología web."
-	canonical="https://fellowship-proposal.vercel.app/en"
+	description="Mathemagical.js is a proposed p5.js library for making web-based mathematical figures, animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it will be easy enough for beginners and flexible enough for experts."
+	canonical="https://fellowship-proposal.vercel.app/"
 	twitter={{
 		handle: '@HigherMathNotes',
 		cardType: 'summary_large_image',
 		title: 'Mathemagical.js',
 		description:
-			'Mathemagical.js es una propuesta para construir una librería de figuras, animaciones y sistemas interactivos matemáticos basados en tecnología web.'
+			'Mathemagical.js is a proposed p5.js library for making web-based mathematical figures, animations, and interactives in 2D and 3D. Designed for learners, educators, and creators, it will be easy enough for beginners and flexible enough for experts.'
 	}}
 	openGraph={{
 		url: 'https://fellowship-proposal.vercel.app/en',

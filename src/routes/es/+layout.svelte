@@ -16,7 +16,7 @@
 <MetaTags
 	title="Mathemagical.js"
 	description="Mathemagical.js es una propuesta para construir una librería de figuras, animaciones y sistemas interactivos matemáticos basados en tecnología web."
-	canonical="https://fellowship-proposal.vercel.app/en"
+	canonical="https://fellowship-proposal.vercel.app/"
 	twitter={{
 		handle: '@HigherMathNotes',
 		cardType: 'summary_large_image',
