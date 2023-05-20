@@ -17,7 +17,7 @@
 	</HeaderLink>
 
 	<HeaderLink
-		link="https://docs.google.com/forms/d/e/1FAIpQLScmVUW9doOZlzCN7k-P5XqKIGUIx_tWplqUySZSneT7IelDKA/viewform?usp=share_link"
+		link="https://docs.google.com/forms/d/e/1FAIpQLSeaUbq5oLIuehUUCnKRd-mwHx1B8E5Ml6s6DAXXNZ0XMhHLiw/viewform?hl=es"
 		text="Formulario de la comunidad"
 	>
 		<MicrophoneStage

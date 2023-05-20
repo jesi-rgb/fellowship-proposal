@@ -68,10 +68,10 @@
 
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Greg</div>
 	<Paragraph>
-		Soy un <b>profesor de matemáticas</b>, youtuber y programador profesional. Hace tiempo construí
-		una primera versión de Mathemagical.js llamada visualODE. También he montado una página web para
-		mi servicio de Higher Math Help, en el que tengo 15 años de experiencia tratando con alumnos de
-		tú a tú.
+		Soy <b>profesor de matemáticas profesional</b>, youtuber y programador. Hace tiempo construí una
+		primera versión de Mathemagical.js llamada visualODE. También he montado una página web para mi
+		servicio de Higher Math Help, en el que tengo 15 años de experiencia tratando con alumnos de tú
+		a tú.
 
 		<br />
 		<br />
@@ -116,7 +116,7 @@
 
 		<Card
 			title="Formulario de la comunidad"
-			link="https://docs.google.com/forms/d/e/1FAIpQLScmVUW9doOZlzCN7k-P5XqKIGUIx_tWplqUySZSneT7IelDKA/viewform?usp=share_link"
+			link="https://docs.google.com/forms/d/e/1FAIpQLSeaUbq5oLIuehUUCnKRd-mwHx1B8E5Ml6s6DAXXNZ0XMhHLiw/viewform?hl=es"
 		>
 			<MicrophoneStage slot="icon" size={200} />
 			<p slot="content">

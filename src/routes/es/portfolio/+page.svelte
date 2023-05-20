@@ -120,7 +120,7 @@
 				/>
 			</WorkItem>
 
-			<WorkItem title="El puzle que parece imposible incluso conociendo...">
+			<WorkItem title="El problema que parece imposible incluso conociendo...">
 				<iframe
 					class="rounded-xl w-full h-[250px]"
 					src="https://www.youtube.com/embed/iSNsgj1OCLA"
@@ -178,7 +178,7 @@
 					allowfullscreen
 				/>
 			</WorkItem>
-			<WorkItem title="El problema del viajante de comercio">
+			<WorkItem title="El problema del viajante">
 				<iframe
 					class="rounded-xl w-full h-[250px]"
 					width="560"
