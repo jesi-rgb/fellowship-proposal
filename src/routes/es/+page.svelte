@@ -69,9 +69,9 @@
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Greg</div>
 	<Paragraph>
 		Soy <b>profesor de matemáticas profesional</b>, youtuber y programador. Hace tiempo construí una
-		primera versión de Mathemagical.js llamada visualODE. También he montado una página web para mi
-		servicio de Higher Math Help, en el que tengo 15 años de experiencia tratando con alumnos de tú
-		a tú.
+		primera versión de Mathemagical.js llamada <b>visualODE</b>. También he montado una página web
+		para mi servicio de Higher Math Help, en el que tengo <b>15 años de experiencia</b> tratando con
+		alumnos de tú a tú.
 
 		<br />
 		<br />
@@ -81,16 +81,16 @@
 	</Paragraph>
 	<div class="mt-10 font-bold text-pink-600 text-3xl">Jesús</div>
 	<Paragraph>
-		Soy un creador de contenido profesional, especializado en ciencias de la computación, diseño
-		gráfico y animación procedural. Mis animaciones hechas en Manim han aparecido en varios de los
-		vídeos más populares de Youtube, alcanzando hasta 60 millones de visualizaciones.
+		Soy un <b>creador de contenido profesional</b>, especializado en ciencias de la computación,
+		diseño gráfico y animación procedural. Mis animaciones hechas en Manim han aparecido en varios
+		de los vídeos más populares de Youtube, alcanzando hasta <b>60 millones de visitas</b>.
 
 		<br />
 		<br />
-		También trabajé en la implementación de exportar GIFs de forma nativa en p5.js, así que sé alguna
-		cosa que otra acerca de animaciones en la web. También soy un desarrollador web, así que procuraré
-		que Mathemagical.js tenga un buen sitio en la web, con demostraciones y documentación para todos
-		los públicos.
+		También trabajé en la <b>implementación de exportar GIFs de forma nativa en p5.js</b>, así que
+		sé alguna cosa que otra acerca de animaciones en la web. También soy un desarrollador web, así
+		que procuraré que Mathemagical.js tenga un buen sitio en la web, con
+		<b>demostraciones y documentación</b> para todos los públicos.
 	</Paragraph>
 </Page>
 
