@@ -48,7 +48,7 @@
 		potente como Manim, pero mucho más fácil de utilizar y construida para la web.
 
 		<br /><br />
-		Nos sustentamos sobre 3 principios para su diseño:
+		Nos sustentamos sobre tres principios para su diseño:
 		<br /><br />
 
 		<ul class="list-disc">
