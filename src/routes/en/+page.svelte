@@ -57,8 +57,18 @@
 			</p>
 
 			<br />
+			Here’s a demo of prototypes that illustrate some visualizations users might make:
+			<br /><br />
+			<iframe
+				class="w-full border-2 border-pink-600 rounded-xl"
+				height="315"
+				src="https://www.youtube.com/embed/Br40z-lpC3o"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			/>
 		</Paragraph>
-		<br />
 	</div>
 </Page>
 

@@ -58,6 +58,18 @@
 			</p>
 
 			<br />
+			He aquí una serie de prototipos que ilustran algunas de las visualizaciones que podemos hacer con
+			esta herramienta:
+			<br /><br />
+			<iframe
+				class="w-full border-2 border-pink-600 rounded-xl"
+				height="315"
+				src="https://www.youtube.com/embed/Br40z-lpC3o"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			/>
 		</Paragraph>
 		<br />
 	</div>
